@@ -53,7 +53,6 @@ package.json
 - node
 - node MySQL2
 - dotenv
-- nodemon
 - sequelize
 
 ---------------------------------------------------------------------

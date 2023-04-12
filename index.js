@@ -1,55 +1,34 @@
 // Dependencies
-const node = require('node');
 const inquirer = require('inquirer');
 const consoleTable = require('console.table')
-const mysql = require('mysql');
+const mysql = require('mysql2');
 
+const db = mysql.createConnection({
+  host: '127.0.0.1',
+  user: 'root',
+  password: '',
+  database: 'employ_db'
+});
+
+const viewEmployess = async() => {
+  const results = await db.promise().query('SELECT * FROM employee')
+  console.table(results[0])
+}
 // question resquet by bussines owner
-const userInput = () => {
-inquirer
-  .prompt([
-    {
-        type:'input',
-        message:'',
-        name: '',
-        choices: ['']
-    },
-    {
-        type:'input',
-        message:'',
-        name: '',
-        choices: ['']
-    },
-    {
-        type:'input',
-        message:'',
-        name: '',
-        choices: ['']
-    },
-    {
-        type:'input',
-        message:'',
-        name: '',
-        choices: ['']
-    },
-    {
-        type:'input',
-        message:'',
-        name: '',
-        choices: ['']
+const menu = async() => {
+const results =  await inquirer
+    .prompt([
+      {
+        type: 'list',
+        message: 'welcome to employee tracker, what would you like to do?',
+        name: 'menu',
+        choices: ['View all employees','Vies all departmenst', 'View all roles', 'Add employee', 'Add deparment', 'Add role','Remove deparment','Remove role', 'Remove employee']
+      }
+    ])
+    if (results.menu === 'View all employees') {
+      viewEmployess();
     }
-  ])
-  .then((answers) => {
-    // Use user feedback for... whatever!!
-  })
-  .catch((error) => {
-    if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else went wrong
-    }
-  });
-};
+}
 
-
+menu();
 
