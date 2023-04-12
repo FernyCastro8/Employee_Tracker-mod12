@@ -1,6 +1,6 @@
 # Employee Tracker
  
-#### output: SQL
+#### 
 
 ######
 
@@ -11,7 +11,8 @@
 GIVEN a command-line application that accepts user input
 
 WHEN user starts the application,
-THEN its presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role.
+THEN its presented with the following options: 
+view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role.
 
 WHEN user chooses to view all departments,
 App is presented with a formatted table showing department names and department ids.
@@ -42,14 +43,18 @@ THEN I am prompted to select an employee to update and their new role and this i
 software:
 - Node JS
 
-Modules:
+Modules / Dependencies
 
 package.json
 
-- Node js
-- Inquirer
-- Node MySQL2
-- Console.table
+- console.table
+- express
+- inquirer
+- node
+- node MySQL2
+- dotenv
+- nodemon
+- sequelize
 
 ---------------------------------------------------------------------
 
@@ -66,3 +71,4 @@ package.json
 
 
 - [ Walkthrough video ]
+
