@@ -48,12 +48,9 @@ Modules / Dependencies
 package.json
 
 - console.table
-- express
 - inquirer
 - node
-- node MySQL2
-- dotenv
-- sequelize
+- mySQL2
 
 ---------------------------------------------------------------------
 
