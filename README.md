@@ -61,7 +61,7 @@ package.json
 https://github.com/FernyCastro8/Employee_Tracker-mod12.git
 
 - URL
-
+https://fernycastro8.github.io/Employee_Tracker-mod12/
 
 - [ Walkthrough video ]
 
