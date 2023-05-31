@@ -20,6 +20,7 @@ A Rest API, command-line application from scratch to manage a company's employee
 ### Installation
 - Open your favorite text editor of choice
 - Open terminal and enter the following command:
+
    `` npm start to start sever || npm run dev to to automatically restart server``
 - Open API testing tool or Platform of choice & start testing routes
 
