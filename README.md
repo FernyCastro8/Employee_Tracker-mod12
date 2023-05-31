@@ -4,7 +4,7 @@
 ```
 Content Management Systems (CMS)
 
-A Rest API, command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL
+A Rest API, command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL
 
 ```
 
