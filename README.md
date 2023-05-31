@@ -26,14 +26,14 @@ A Rest API, command-line application from scratch to manage a company's employee
 
 ##### **Modules / Packages / Dependencies**
 
-software:
-- Insomnia Rest API
-
 - Node JS 19.8.1
 - console.table 0.10.0
 - inquirer 8.2.5
 - mySQL2 3.2.0
 - nodemon 2.0.22
+
+software:
+- Insomnia Rest API
 
 ---
 ### Usage
