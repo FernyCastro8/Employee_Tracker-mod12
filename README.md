@@ -89,14 +89,6 @@ Copyright (c) 2023 Ferny Castro
 
 ---
 
-#### Websites 
-
-- Github
-https://github.com/FernyCastro8/Employee_Tracker-mod12.git
-
-- URL
-https://fernycastro8.github.io/Employee_Tracker-mod12/
-
 ### Demo
 
 https://user-images.githubusercontent.com/124219457/231922735-32ef4225-579a-408f-9f23-7ff0f6f57a19.mov
