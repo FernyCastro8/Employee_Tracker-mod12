@@ -24,7 +24,7 @@
 
 software:
 - Node JS
-- Insomnia
+- Insomnia Rest API
 
 - console.table
 - inquirer
@@ -63,6 +63,26 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ```
 
+---
+## Credits
+
+#### Ferny Castro 
+
+🔗 [Github](https://github.com/FernyCastro8)
+
+🔗 [Linkedin](https://www.linkedin.com/in/ferny-castro/)
+
+
+---
+## License
+
+#### MIT License
+
+Copyright (c) 2023 Ferny Castro
+
+🔗 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
 
 #### Websites 
 
@@ -73,7 +93,6 @@ https://github.com/FernyCastro8/Employee_Tracker-mod12.git
 https://fernycastro8.github.io/Employee_Tracker-mod12/
 
 - [Demo]
-
 
 https://user-images.githubusercontent.com/124219457/231922735-32ef4225-579a-408f-9f23-7ff0f6f57a19.mov
 
