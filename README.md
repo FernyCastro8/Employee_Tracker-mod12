@@ -1,10 +1,36 @@
 # Employee Tracker
  
-#### 
+## Description
+```
 
-######
+```
 
----------------------------------------------------------------------
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Demo](#demo)
+
+---
+### Installation
+- Open your favorite text editor of choice
+- Open terminal and enter the following command:
+   `` npm start to start sever || npm run dev to to automatically restart server``
+- Open API testing tool or Platform of choice & start testing routes
+
+##### **Modules / Packages / Dependencies**
+
+software:
+- Node JS
+- Insomnia
+
+- console.table
+- inquirer
+- mySQL2
+
+---
 ### Usage
 
 ```
@@ -37,23 +63,6 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ```
 
----------------------------------------------------------------------
-
-### Installation
-software:
-- Node JS
-
-Modules / Dependencies
-
-package.json
-
-- console.table
-- inquirer
-- node
-- mySQL2
-
----------------------------------------------------------------------
-
 
 #### Websites 
 
@@ -63,7 +72,7 @@ https://github.com/FernyCastro8/Employee_Tracker-mod12.git
 - URL
 https://fernycastro8.github.io/Employee_Tracker-mod12/
 
-- [ Walkthrough video ]
+- [Demo]
 
 
 https://user-images.githubusercontent.com/124219457/231922735-32ef4225-579a-408f-9f23-7ff0f6f57a19.mov
