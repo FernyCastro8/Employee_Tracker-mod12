@@ -2,6 +2,9 @@
  
 ## Description
 ```
+Content Management Systems (CMS)
+
+A Rest API, command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL
 
 ```
 
@@ -23,12 +26,13 @@
 ##### **Modules / Packages / Dependencies**
 
 software:
-- Node JS
 - Insomnia Rest API
 
-- console.table
-- inquirer
-- mySQL2
+- Node JS 19.8.1
+- console.table 0.10.0
+- inquirer 8.2.5
+- mySQL2 3.2.0
+- nodemon 2.0.22
 
 ---
 ### Usage
