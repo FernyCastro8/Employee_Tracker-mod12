@@ -85,7 +85,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 Copyright (c) 2023 Ferny Castro
 
-🔗 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
